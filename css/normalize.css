@@ -6,6 +6,32 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+body {
+  padding: 20px;
+}
+
 img {
   width: 100%;
 }
+
+code {
+  font-family: "Anonymice Nerd Font", monospace, monospace;
+}
+
+.video {
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* 
+    Un comentario random
+*/
