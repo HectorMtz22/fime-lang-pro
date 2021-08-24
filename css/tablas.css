@@ -1,0 +1,15 @@
+table,
+table td,
+table th {
+  border: 2px solid;
+}
+
+/* Adittion to the class */
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+table td {
+  min-width: 100px;
+}

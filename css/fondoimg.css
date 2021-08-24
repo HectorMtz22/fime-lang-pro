@@ -1,0 +1,20 @@
+/* 
+    Background Shorthands
+    background: 
+        color
+        image
+        repeat
+        attachment
+        position
+
+    background-size
+*/
+
+body {
+  background: #ccc url(../img/gatito.jpg) no-repeat fixed 100%;
+  background-size: cover;
+}
+
+.spacing {
+  margin: 200vw;
+}

@@ -1,0 +1,46 @@
+.container section {
+  color: rgb(02, 15, 100);
+  height: 50px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  animation: show 1s linear alternate-reverse;
+}
+
+.in {
+  width: 7in;
+  background-color: green;
+}
+
+.cm {
+  width: 7cm;
+  background-color: gold;
+}
+
+.pica {
+  width: 7pc;
+  background-color: olive;
+}
+
+.pixel {
+  width: 7px;
+  background-color: pink;
+}
+
+/* ? Additional  */
+
+.rem {
+  width: 7rem;
+  background-color: blueviolet;
+}
+
+.em {
+  width: 7em;
+  background-color: brown;
+}
+
+@keyframes show {
+  to {
+    width: 0;
+  }
+}

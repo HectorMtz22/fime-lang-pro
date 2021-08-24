@@ -1,0 +1,14 @@
+ul li {
+  list-style: disc;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+
+.img img {
+  width: 100%;
+  aspect-ratio: 3/2;
+}
