@@ -13,7 +13,7 @@ public class UsoDeSwitch {
         
         switch (input) {
             case 1:
-                printNumbers(number);
+                NumerosNaturales.printNumbers(number);
                 break;
 
             case 2:
@@ -29,22 +29,5 @@ public class UsoDeSwitch {
 
         sysInput.close();
     }
-
-    public static void printNumbers(int number) {
-        for (int i = 1; i <= number; i++) {
-            System.out.print(i + ", ");
-        }
-        System.out.println();
-    }
-
-    // public static int sumNumber(int number) {
-    //     int sum = 0;
-
-    //     for (int i = 1; i <= number; i++) {
-    //         System.out.println(sum + " " + i);
-    //         sum += i;
-    //     }
-    //     return sum;
-    // }
-    
+   
 }
