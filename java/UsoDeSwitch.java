@@ -18,7 +18,7 @@ public class UsoDeSwitch {
 
             case 2:
 
-                System.out.println(sumNumber(number));
+                System.out.println(SumaNumero.sumNumber(number));
                 break;
 
             default: 
@@ -37,15 +37,14 @@ public class UsoDeSwitch {
         System.out.println();
     }
 
-    public static int sumNumber(int number) {
-        int sum = 0;
+    // public static int sumNumber(int number) {
+    //     int sum = 0;
 
-        for (int i = 1; i <= number; i++) {
-            System.out.println(sum + " " + i);
-            sum += i;
-        }
-        return sum;
-    }
-
-
+    //     for (int i = 1; i <= number; i++) {
+    //         System.out.println(sum + " " + i);
+    //         sum += i;
+    //     }
+    //     return sum;
+    // }
+    
 }
